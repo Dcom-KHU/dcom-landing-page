@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "husky": "^8.0.3",
+    "lint-staged": "^13.1.1",
     "prettier": "^2.8.4"
   },
   "keywords": [
@@ -38,5 +39,13 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "lint-staged": {
+    "*.js": "npm run lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

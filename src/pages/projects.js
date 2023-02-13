@@ -6,8 +6,10 @@ import Footer from "../components/common/Footer"
 import { graphql } from "gatsby"
 import ProjectList from "../components/projects/ProjectList"
 import GlobalStyle from "../components/common/GlobalStyle"
+import background from "../images/background.jpg"
+
 const BackgroundWrapper = styled.div`
-  background: url("/background.jpg");
+  background: url(${background});
   background-attachment: scroll;
   background-size: 100vw;
   overflow-x: hidden;

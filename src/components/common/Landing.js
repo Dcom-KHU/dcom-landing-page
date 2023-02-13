@@ -3,6 +3,7 @@ import styled from "@emotion/styled"
 import GlobalStyle from "./GlobalStyle"
 import Slider from "react-slick"
 import oc from "open-color"
+import { StaticImage } from "gatsby-plugin-image"
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -53,7 +54,7 @@ const MainText = styled.div`
   margin-bottom: 30px;
   font-weight: bold;
   @media (max-width: 768px) {
-    font-size: 50px;
+    font-size: 2rem;
   }
 `
 
@@ -64,7 +65,7 @@ const SubText = styled.div`
   margin-bottom: 30px;
   margin-top: 30px;
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 1rem;
   }
 `
 
@@ -78,43 +79,22 @@ const GradientBottomMainText = styled.div`
   background-size: 30% 30%;
   background-repeat: no-repeat;
   @media (max-width: 768px) {
-    font-size: 50px;
+    font-size: 2rem;
   }
 `
 
-const SlideImage = styled.img`
-  height: 300px;
-  width: 500px;
-`
 const SliderWrapper = styled.div`
   display: inline;
   margin: 30px auto;
   height: 500px;
   width: 500px;
-`
-
-const GradientTopMainText = styled.div`
-  display: inline-block;
-  font-size: 4vw;
-  padding-left: 5px;
-  margin-bottom: 30px;
-  font-weight: bold;
-  background-image: linear-gradient(
-    90deg,
-    #12c2e9 0%,
-    #c471ed 50%,
-    #f64f59 100%
-  );
-  background-position: 5px 10px;
-  background-size: 20% 20%;
-  background-repeat: no-repeat;
   @media (max-width: 768px) {
-    font-size: 50px;
+    height: 100px;
+    width: 300px;
   }
 `
 
 const Landing = () => {
-  const images = ["/ex1.jpg", "/ex2.jpeg", "/ex3.jpg"]
   const settings = {
     dots: true,
     infinite: true,
@@ -141,24 +121,29 @@ const Landing = () => {
       </MainTextArea>
       <SliderWrapper>
         <Slider {...settings}>
-          <div>
-            <SlideImage src={images[0]}></SlideImage>
-          </div>
-          <div>
-            <SlideImage src={images[1]}></SlideImage>
-          </div>
-          <div>
-            <SlideImage src={images[2]}></SlideImage>
-          </div>
-          <div>
-            <SlideImage src={images[0]}></SlideImage>
-          </div>
-          <div>
-            <SlideImage src={images[1]}></SlideImage>
-          </div>
-          <div>
-            <SlideImage src={images[2]}></SlideImage>
-          </div>
+          <StaticImage
+            src="../../images/ex1.jpg"
+            alt="A dinosaur"
+            layout="fixed"
+            width={500}
+            height={300}
+          />
+
+          <StaticImage
+            src="../../images/ex2.jpg"
+            alt="A dinosaur"
+            layout="fixed"
+            width={500}
+            height={300}
+          />
+
+          <StaticImage
+            src="../../images/ex3.jpg"
+            alt="A dinosaur"
+            layout="fixed"
+            width={500}
+            height={300}
+          />
         </Slider>
       </SliderWrapper>
       <MainTextArea>

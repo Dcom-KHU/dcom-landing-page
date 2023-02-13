@@ -5,9 +5,10 @@ import Landing from "../components/common/Landing"
 import Header from "../components/common/Header"
 import Footer from "../components/common/Footer"
 import GlobalStyle from "../components/common/GlobalStyle"
+import background from "../images/background.jpg"
 
 const BackgroundWrapper = styled.div`
-  background: url("/background.jpg");
+  background: url(${background});
   background-attachment: scroll;
   background-size: 100vw;
   overflow-x: hidden;

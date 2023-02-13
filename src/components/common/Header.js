@@ -37,6 +37,10 @@ const Logo = styled.div`
   &:hover {
     color: white;
   }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 `
 const Spacer = styled.div`
   flex-grow: 1;
@@ -48,6 +52,10 @@ const HeaderItem = styled(Link)`
     color: white;
   }
   margin: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 0.5rem;
+  }
 `
 
 const Header = () => {

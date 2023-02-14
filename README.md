@@ -3,10 +3,10 @@
 <a name="readme-top"></a>
 <p align="center">
     <a href="https://github.com/Dcom-KHU/dcom-landing-page/issues">
-        <img alt="Issues" src="https://img.shields.io/bitbucket/issues/Dcom-KHU/dcom-landing-page">
+        <img alt="Issues" src="https://img.shields.io/github/issues/Dcom-KHU/dcom-landing-page">
     </a>
     <a href="https://github.com/Dcom-KHU/dcom-landing-page/pulls">
-        <img alt="Issues" src="https://img.shields.io/bitbucket/pr/Dcom-KHU/dcom-landing-page">
+        <img alt="Issues" src="https://img.shields.io/github/issues-pr/Dcom-KHU/dcom-landing-page">
     </a>
         <a href="https://github.com/Dcom-KHU/dcom-landing-page/#contributors">
             <img alt="Issues" src="https://img.shields.io/github/all-contributors/Dcom-KHU/dcom-landing-page?color=ee8449&style=flat-square">

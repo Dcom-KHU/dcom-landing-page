@@ -1,0 +1,37 @@
+[
+  {
+    "title": "D.Recreation",
+    "date": "21-Nov-2020",
+    "thumbnail": "recreation.jpg",
+    "description": "D.Com의 Recreation을 책임진다!",
+    "link": "https://github.com/Dcom-KHU/D.Recreation"
+  },
+  {
+    "title": "Physics Helper",
+    "date": "21-Nov-2020",
+    "thumbnail": "physics-helper.jpg",
+    "description": "물리학 및 실험 계산 도와주는 프로젝트",
+    "link": "https://github.com/Dcom-KHU/Physics_Helper"
+  },
+  {
+    "title": "dcom-tech-interview",
+    "date": "21-Nov-2020",
+    "thumbnail": "tech-interview.jpg",
+    "description": "D.Com 학우들을 위한, 기술 면접 정리 Repo",
+    "link": "https://github.com/Dcom-KHU/dcom-tech-interview"
+  },
+  {
+    "title": "What-Python-Can-Do",
+    "date": "21-Nov-2020",
+    "thumbnail": "python-do.jpg",
+    "description": "신입생들에게 Motivation을 주기 위해 Python으로 할 수 있는 것들을 모아 봤습니다!",
+    "link": "https://github.com/Dcom-KHU/What-Python-Can-Do"
+  },
+  {
+    "title": "NearBuy",
+    "date": "21-Nov-2020",
+    "thumbnail": "nearbuy.jpg",
+    "description": "Neighborhood Trading Web Service",
+    "link": "https://github.com/Dcom-KHU/nearbuy-frontend"
+  }
+]

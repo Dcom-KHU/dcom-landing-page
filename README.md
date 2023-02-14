@@ -53,7 +53,7 @@ TBA
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://facerain.club/"><img src="https://avatars.githubusercontent.com/u/16442978?v=4?s=100" width="100px;" alt="Yong woo Song"/><br /><sub><b>Yong woo Song</b></sub></a><br /><a href="https://github.com/Dcom-KHU/dcom-landing-page/commits?author=FacerAin" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://facerain.club/"><img src="https://avatars.githubusercontent.com/u/16442978?v=4?s=100" width="100px;" alt="Yong woo Song"/><br /><sub><b>Yong woo Song</b></sub></a><br /><a href="https://github.com/Dcom-KHU/dcom-landing-page/commits?author=FacerAin" title="Code">💻</a> <a href="https://github.com/Dcom-KHU/dcom-landing-page/commits?author=FacerAin" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

@@ -71,6 +71,7 @@ export const query = graphql`
           date
           description
           link
+          categories
           author
           thumbnail {
             childImageSharp {

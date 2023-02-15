@@ -30,6 +30,7 @@ const PostList = function ({ nodes }) {
             date,
             description,
             link,
+            categories,
             author,
             thumbnail: {
               childImageSharp: { fluid },
@@ -44,6 +45,7 @@ const PostList = function ({ nodes }) {
             author={author}
             link={link}
             fluid={fluid}
+            categories={categories}
           />
         )
       )}

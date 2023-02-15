@@ -65,7 +65,7 @@ git push -u origin your-branch-name
 `content/posts/posts.json` 에서 내용을 추가해주세요!
 
 - `/projects` 에 **프로젝트**를 추가하기 위해서는
-`content/posts/projects.json` 에서 내용을 추가해주세요!
+`content/projects/projects.json` 에서 내용을 추가해주세요!
 
 ## Contributors
 

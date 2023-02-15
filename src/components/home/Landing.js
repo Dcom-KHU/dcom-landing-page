@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
 import GlobalStyle from "../common/GlobalStyle"
-import ImageSlider from "./ImageSlider"
 import Title from "./Title"
 import Story from "./Story"
 import Contact from "./Contact"
@@ -20,7 +19,6 @@ const Landing = () => {
     <LandingWrapper>
       <Title />
       <Story />
-      <ImageSlider />
       <Contact />
       <GlobalStyle />
     </LandingWrapper>

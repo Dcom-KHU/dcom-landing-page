@@ -5,6 +5,7 @@ on:
       - main
 permissions:
   contents: write
+
 jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }}
@@ -12,6 +13,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
+
+      - name: Setup Node 🌱
+        uses: setup-node@v1
+        with:
+          node-version: $(cat .nvmrc)
 
       - name: Install and Build 🔧
         run: |

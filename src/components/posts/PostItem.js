@@ -2,6 +2,7 @@ import React from "react"
 import styled from "@emotion/styled"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
+import oc from "open-color"
 
 const PostItemWrapper = styled(Link)`
   text-decoration: none;
@@ -23,7 +24,6 @@ const PostItemWrapper = styled(Link)`
 
 const ThumbnailImageContainer = styled.div`
   width: 100%;
-  border-radius: 10px 10px 0 0;
   max-width: 200px;
   height: 100%;
   overflow: hidden;
@@ -31,8 +31,7 @@ const ThumbnailImageContainer = styled.div`
 const ThumbnailImage = styled(Img)`
   width: 100%;
   max-width: 200px;
-  height: 150px;
-  border-radius: 10px 10px 0 0;
+  height: 20vh;
   transition: 0.4s linear;
   overflow: hidden;
   &:hover {
@@ -45,8 +44,9 @@ const PostItemContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 15px;
+  padding: 10px;
   width: 40vw;
+  height: 20vh;
 `
 
 const Title = styled.div`
@@ -82,19 +82,18 @@ const Category = styled.div`
 `
 
 const CategoryItem = styled.div`
-  margin: 2.5px 5px;
+  margin: 0px 5px;
   padding: 3px 5px;
   border-radius: 3px;
   background: black;
   font-size: 14px;
   font-weight: 700;
-  color: white;
+  color: ${oc.gray[4]};
 `
 
 const Description = styled.div`
   display: -webkit-box;
   overflow: hidden;
-  margin-top: auto;
   text-overflow: ellipsis;
   white-space: normal;
   overflow-wrap: break-word;
@@ -104,7 +103,15 @@ const Description = styled.div`
   opacity: 0.8;
 `
 
-const PostItem = function ({ title, date, description, link, fluid, author }) {
+const PostItem = function ({
+  title,
+  date,
+  description,
+  link,
+  fluid,
+  author,
+  categories,
+}) {
   return (
     <PostItemWrapper to={link}>
       <ThumbnailImageContainer>
@@ -115,6 +122,11 @@ const PostItem = function ({ title, date, description, link, fluid, author }) {
         <Title>{title}</Title>
         <Author>{author}</Author>
         <Date>{date}</Date>
+        <Category>
+          {categories.map(item => (
+            <CategoryItem key={item}>{item}</CategoryItem>
+          ))}
+        </Category>
         <Description>{description}</Description>
       </PostItemContent>
     </PostItemWrapper>

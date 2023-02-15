@@ -59,8 +59,8 @@ npm start
 ```
 git push -u origin your-branch-name
 ```
-6.  Make a full request to reflect your changes.
-### Add item
+6.  Make a pull request to reflect your changes.
+### Add page item
 - `/posts` 에 **블로그 글**을 추가하기 위해서는
 `content/posts/posts.json` 에서 내용을 추가해주세요!
 

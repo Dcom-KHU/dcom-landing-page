@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 
 const PostItemWrapper = styled(Link)`
+  max-width: 20vw;
   text-decoration: none;
   color: #ced4da;
   display: flex;
@@ -24,14 +25,13 @@ const PostItemWrapper = styled(Link)`
 const ThumbnailImageContainer = styled.div`
   width: 100%;
   border-radius: 10px 10px 0 0;
-  max-width: 400px;
-  height: 100%;
+  max-width: 20vw;
+  height: 70%;
   overflow: hidden;
 `
+
 const ThumbnailImage = styled(Img)`
-  width: 100%;
-  max-width: 400px;
-  height: 150px;
+  height: 100%;
   border-radius: 10px 10px 0 0;
   transition: 0.4s linear;
   overflow: hidden;

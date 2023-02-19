@@ -11,7 +11,8 @@ import background from "../images/background.jpg"
 const BackgroundWrapper = styled.div`
   background: url(${background});
   background-attachment: scroll;
-  background-size: 100vw;
+  height: 100vh;
+  background-size: cover;
   overflow-x: hidden;
 `
 

@@ -23,15 +23,15 @@ const PostItemWrapper = styled(Link)`
 `
 
 const ThumbnailImageContainer = styled.div`
-  width: 100%;
+  width: 40vw;
   max-width: 200px;
   height: 100%;
   overflow: hidden;
 `
 const ThumbnailImage = styled(Img)`
-  width: 100%;
+  width: 40vw;
   max-width: 200px;
-  height: 20vh;
+  height: 100%;
   transition: 0.4s linear;
   overflow: hidden;
   &:hover {
@@ -46,7 +46,7 @@ const PostItemContent = styled.div`
   align-items: flex-start;
   padding: 10px;
   width: 40vw;
-  height: 20vh;
+  height: 100%;
 `
 
 const Title = styled.div`

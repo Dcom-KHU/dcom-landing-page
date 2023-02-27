@@ -20,6 +20,11 @@ const PostItemWrapper = styled(Link)`
     background-color: #343a40;
     color: #ced4da;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100vw;
+  }
 `
 
 const ThumbnailImageContainer = styled.div`
@@ -28,6 +33,11 @@ const ThumbnailImageContainer = styled.div`
   max-width: 20vw;
   height: 70%;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100vw;
+  }
 `
 
 const ThumbnailImage = styled(Img)`

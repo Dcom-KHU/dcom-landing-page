@@ -20,8 +20,6 @@ const ProjectsPageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  height: 100%;
   width: 100vw;
 `
 

@@ -83,6 +83,7 @@ git push -u origin your-branch-name
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://facerain.club/"><img src="https://avatars.githubusercontent.com/u/16442978?v=4?s=100" width="100px;" alt="Yong woo Song"/><br /><sub><b>Yong woo Song</b></sub></a><br /><a href="https://github.com/Dcom-KHU/dcom-landing-page/commits?author=FacerAin" title="Code">💻</a> <a href="https://github.com/Dcom-KHU/dcom-landing-page/commits?author=FacerAin" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://com1.kr"><img src="https://avatars.githubusercontent.com/u/42272855?v=4?s=100" width="100px;" alt="Best-One"/><br /><sub><b>Best-One</b></sub></a><br /><a href="#infra-dhdbstjr98" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     </tr>
   </tbody>
 </table>

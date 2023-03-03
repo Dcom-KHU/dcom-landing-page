@@ -15,6 +15,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "dhdbstjr98",
+      "name": "Best-One",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42272855?v=4",
+      "profile": "https://com1.kr",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,

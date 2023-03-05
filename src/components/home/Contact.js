@@ -8,6 +8,10 @@ const ContactTextArea = styled.div`
   margin-top: 20vh;
   width: 50vw;
   display: inline;
+
+  @media (max-width: 768px) {
+    margin-top: 40vh;
+  }
 `
 
 const Contact = () => {

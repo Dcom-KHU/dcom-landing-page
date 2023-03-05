@@ -40,6 +40,7 @@ const Logo = styled.div`
 
   @media (max-width: 768px) {
     font-size: 1rem;
+    margin-left: 0.5rem;
   }
 `
 const Spacer = styled.div`
@@ -55,6 +56,7 @@ const HeaderItem = styled(Link)`
 
   @media (max-width: 768px) {
     font-size: 0.5rem;
+    margin: 5px;
   }
 `
 

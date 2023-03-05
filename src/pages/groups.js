@@ -29,6 +29,9 @@ const HeaderText = styled.div`
   font-size: 50px;
   color: white;
   font-weight: bold;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `
 
 const GroupsPage = ({ data }) => {

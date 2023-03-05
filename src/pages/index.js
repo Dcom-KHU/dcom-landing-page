@@ -10,6 +10,8 @@ import background from "../images/background.jpg"
 const BackgroundWrapper = styled.div`
   background: url(${background});
   background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
 `
 

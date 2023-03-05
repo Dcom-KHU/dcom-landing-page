@@ -69,6 +69,7 @@ const Header = () => {
           <Spacer />
           <HeaderItem to="/posts">Posts</HeaderItem>
           <HeaderItem to="/projects">Projects</HeaderItem>
+          <HeaderItem to="/groups">Groups</HeaderItem>
           <HeaderItem to="/members">Members</HeaderItem>
           <HeaderItem to="/contact">Contact</HeaderItem>
         </HeaderContents>

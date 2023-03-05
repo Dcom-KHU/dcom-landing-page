@@ -24,6 +24,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "JustKode",
+      "name": "Minjae Park",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28499550?v=4",
+      "profile": "https://justkode.kr",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -8,6 +8,12 @@ const TitleTextArea = styled.div`
   margin-left: 50vw;
   width: 50vw;
   display: inline;
+
+  @media (max-width: 768px) {
+    margin-left: 30vw;
+    padding-left: 0px;
+    font-size: 1rem;
+  }
 `
 
 const GradientBottomMainText = styled.div`
@@ -20,6 +26,7 @@ const GradientBottomMainText = styled.div`
   background-size: 30% 30%;
   background-repeat: no-repeat;
   @media (max-width: 768px) {
+    padding-left: 0px;
     font-size: 2rem;
   }
 `

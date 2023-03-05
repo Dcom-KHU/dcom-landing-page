@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Frontend Study",
+    "thumbnail": "frontend.jpg",
+    "description": "프론트엔드 스터디",
+    "leader": "정지원",
+    "link": "https://pyrite-glazer-8fa.notion.site/WELCOME-TO-FRONTEND-4a73845d955c4524a85df102f9028192",
+    "categories": ["frontend", "react", "javascript"]
+  },
+  {
+    "title": "Infrastructure Study",
+    "thumbnail": "infra.jpg",
+    "description": "기업 기술 세미나를 바탕으로 다양한 아키텍쳐와 인프라를 탐구합니다.",
+    "leader": "박민재",
+    "link": "https://pyrite-glazer-8fa.notion.site/2023-D-com-Infrastructure-2693828d855f4ea0bdbce1180ec0dbe7",
+    "categories": ["k8s", "cloud", "spark"]
+  },
+  {
+    "title": "Spring Backend Study",
+    "thumbnail": "backend.jpg",
+    "description": "스프링 백엔드 스터디",
+    "leader": "노현욱",
+    "link": "https://rohsik2.notion.site/rohsik2/Spring-Backend-Study-fbb14470a16c4581814966530450f33c",
+    "categories": ["spring", "review", "review"]
+  }
+]

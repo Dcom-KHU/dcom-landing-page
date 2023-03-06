@@ -16,5 +16,14 @@
     "thumbnail": "physics-helper.jpg",
     "description": "의미있는 데이터를 뽑아내는 기술들에 대하여.",
     "link": "https://justkode.kr/data-engineering/what-is-data-engineering"
+  },
+    {
+    "title": "(번역) Clean Architecture on Frontend",
+    "date": "2023.02.07",
+    "author": "심규진",
+    "categories": ["frontend", "architecture"],
+    "thumbnail": "python-do.jpg",
+    "description": "프론트엔드에서 클린 아키텍쳐를 구현하는 방법에 대하",
+    "link": "https://velog.io/@bluejoyq/%EB%B2%88%EC%97%AD-Clean-Architecture-on-Frontend"
   }
 ]
